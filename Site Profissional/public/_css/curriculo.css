@@ -1,0 +1,157 @@
+header, ul, li, footer {
+    text-align: center;
+}
+
+header {
+    background-image: url(../_img/CoverSite.png);
+    margin-top: -39px;
+    margin-bottom: -18px;
+    background-position: top;
+    width: 100%;
+}
+
+h1{    
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(49, 74, 235);
+  line-height: 1.2;
+  text-shadow: 0 0 0.01em #ca4aeb;
+}
+
+h3{    
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(49, 74, 235);
+  line-height: 1.2;
+  padding-bottom: 15px;
+}
+
+article{
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+    background-color: white;
+    padding: 1%;
+    border: 2px solid #708090;
+    border-radius: 4px;
+}
+
+
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: darkblue;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700; 
+    margin-left: 64px;
+    margin-right: 64px;
+    border-color: white;
+    width: 120px;
+}
+
+li a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration-color: white;
+}
+
+li a:visited{
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color:aquamarine; 
+}
+
+
+ul {
+    padding: 0 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: darkturquoise;
+    width: 100%;
+}
+
+
+ 
+body {
+    background-color: #DCDCDC;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+}
+
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 25px;  
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: purple;
+    clear: both;
+    background-position: bottom;
+    margin-top: 100px;
+}
+
+a.nounderline:link 
+{ 
+text-decoration:none; 
+} 
+
+p.titulos{
+    font-family: 'Montserrat', sans-serif;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+p.subtitulos{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(67, 67, 238);
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+.clearboth{
+    clear: both;
+}
+
+.fontlabel{
+    font-family: 'Montserrat', sans-serif;
+    color: darkblue;   
+}
+
+.fontform{
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    min-height:100%;
+    position:relative;
+}
+
+.textoEvidencia{
+    background-color: rgb(194, 194, 194);
+    padding: 1%;
+    border: 2px solid #708090;
+    border-radius: 4px;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: auto;
+}

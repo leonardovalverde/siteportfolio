@@ -1,0 +1,183 @@
+header, ul.center, li.center, footer {
+    text-align: center;
+}
+
+header {
+    background-image: url(../_img/CoverSite.png);
+    margin-top: -39px;
+    margin-bottom: -18px;
+    background-position: top;
+    width: 100%;
+}
+
+h1{    
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(49, 74, 235);
+  line-height: 1.2;
+  text-shadow: 0 0 0.01em #ca4aeb;
+}
+
+h3{    
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(49, 74, 235);
+  line-height: 1.2;
+  padding-bottom: 15px;
+}
+
+article{
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+    background-color: white;
+    padding: 1%;
+    border: 2px solid #708090;
+    border-radius: 4px;
+}
+
+
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: darkblue;
+    margin: 5px 0;
+}
+
+li.center {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700; 
+    margin-left: 64px;
+    margin-right: 64px;
+    border-color: white;
+    width: 120px;
+}
+
+li.center a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration-color: white;
+}
+
+li.center a:visited{
+    text-decoration: none;
+}
+
+nav ul.center li.center a:hover {
+    background-color:aquamarine; 
+}
+
+
+ul.center {
+    padding: 0 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: darkturquoise;
+    width: 100%;
+}
+
+
+ 
+body {
+    background-color: #DCDCDC;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25px;  
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: purple;
+    clear: both;
+    background-position: bottom;
+    margin-top: 100px;
+}
+
+a.nounderline:link 
+{ 
+text-decoration:none; 
+} 
+
+p.titulos{
+    font-family: 'Montserrat', sans-serif;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+p.subtitulos{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(67, 67, 238);
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+.clearboth{
+    clear: both;
+}
+
+
+.fontform{
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    min-height:100%;
+    position:relative;
+}
+
+ul#repo-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+img.imggit{
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+li.gitli{
+    clear: both;
+    margin-top: 20px;
+}
+
+strong{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: darkblue;
+}
+
+a.linkgit{
+    text-decoration:none;
+    font-weight: bold;
+    color: rgb(62, 4, 100); 
+}
+
+a.linkgit:visited{
+    text-decoration: none;   
+}
+
+p.pgit{
+    font-size: 14px;
+}
